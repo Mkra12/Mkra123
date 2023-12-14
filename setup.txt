@@ -1,0 +1,31 @@
+yum update -y
+
+sudo yum install centos-release-scl
+
+sudo yum install rh-python36
+
+scl enable rh-python36 bash - enable python
+
+sudo yum install epel-release
+
+sudo yum install python-pip
+
+pip install request
+
+pip install discord
+
+screen python3 bot.py
+
+CTRL + A + D
+
+
+Note: If you get this message "command not found" when screening install "screen" by
+
+	yum install screen -y
+
+
+Bot command: .flood (METHOD) (IP) (TIME) (PORT)
+
+
+
+
